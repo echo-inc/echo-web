@@ -6,21 +6,96 @@
   background-color: #1f1f1f
 }
 
-.button {
-  background-color: #ff4200;
-  border-radius: 2px;
-  border: 5px solid #ff4200;
-  color: white;
-  height: 2.5em;
+@media (min-width: 991px) {
+  .button {
+    background-color: #ff4200;
+    border-radius: 2px;
+    border: 5px solid #ff4200;
+    color: white;
+    height: 2.5em;
+  }
+
+  .email-field {
+    height: 2.5em;
+    width: 50%;
+    border-radius: 2px;
+    border: 1px solid white;
+    padding: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .button {
+    background-color: #ff4200;
+    border-radius: 2px;
+    border: 5px solid #ff4200;
+    color: white;
+    height: 2.5em;
+  }
+
+  .email-field {
+    height: 2.5em;
+    width: 50%;
+    border-radius: 2px;
+    border: 1px solid white;
+    padding: 10px;
+  }
 }
 
-.email-field {
-  height: 2.5em;
-  width: 70%;
-  border-radius: 2px;
-  border: 1px solid white;
-  padding: 10px;
+@media (min-width: 480px) and (max-width: 768px) {
+  .button {
+    background-color: #ff4200;
+    border-radius: 2px;
+    border: 5px solid #ff4200;
+    color: white;
+    height: 2.5em;
+  }
+
+  .email-field {
+    height: 2.5em;
+    width: 50%;
+    border-radius: 2px;
+    border: 1px solid white;
+    padding: 10px;
+  }
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .button {
+    background-color: #ff4200;
+    border-radius: 2px;
+    border: 5px solid #ff4200;
+    color: white;
+    height: 2.5em;
+    margin-top: 10px
+  }
+
+  .email-field {
+    height: 2.5em;
+    width: 80%;
+    border-radius: 2px;
+    border: 1px solid white;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .button {
+    background-color: #ff4200;
+    border-radius: 2px;
+    border: 5px solid #ff4200;
+    color: white;
+    height: 2.5em;
+  }
+
+  .email-field {
+    height: 2.5em;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid white;
+    padding: 10px;
+  }
+}
+
 
 .orange-text {
   color: #ff4200
