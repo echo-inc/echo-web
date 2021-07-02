@@ -11,12 +11,15 @@
   border-radius: 2px;
   border: 5px solid #ff4200;
   color: white;
+  height: 2.5em;
 }
 
 .email-field {
-  height: 2.3em;
+  height: 2.5em;
+  width: 70%;
   border-radius: 2px;
-  border: 5px solid white;
+  border: 1px solid white;
+  padding: 10px;
 }
 
 .orange-text {
