@@ -30,7 +30,7 @@ function App() {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(values)
             };
-             fetch('https://qa-api.joinecho.app/invitation_requests', requestOptions)
+             fetch('https://api.joinecho.app/invitation_requests', requestOptions)
                 .then(response => response.json())
                 .then(data => setRequestStatus(data.status))
                 .then(() => setshowForm(false))
